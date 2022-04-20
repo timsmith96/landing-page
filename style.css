@@ -181,3 +181,45 @@ SECTION
     font-size: 18px;
     text-align: right;
 }
+
+/* 
+=========
+SIGN UP
+=========
+*/
+
+.sign-up {
+    height: 400px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sign-up-wrapper {
+    background-color: #3882f6;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 35px 150px;
+    border-radius: 10px;
+    color: #e5e7eb;
+    display: flex;
+    font-size: 18px;
+    justify-content: space-between;
+}
+
+.sign-up-wrapper .btn {
+    padding: 1px 30px;
+    background: transparent;
+    border:2px solid #E5E7EB;
+    color: #E5E7EB;
+    border-radius: 5px;
+}
+
+.sign-up-wrapper .btn:hover {
+    cursor: pointer;
+}
+
+h4{
+    margin-bottom: 5px;
+}
